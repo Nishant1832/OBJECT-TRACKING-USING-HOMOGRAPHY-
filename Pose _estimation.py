@@ -183,7 +183,7 @@ def getH(final_corners, K):
 
 
 def main():
-    vid_path = "project2.avi"  # Path to the video file
+    vid_path = "main_video.avi"  # Path to the video file
     f_corners = getTrack(vid_path=vid_path, disp_vid=False, disp_plot=False)  # Detect corners in the video frames
     #K = np.array([[1380,0,946],[0,1380,527],[0,0,1]])  # Intrinsic camera matrix (optional)
     K = np.array([[767.22348963,0,759.3332939],[0,755.79620519,380.08386295],[0,0,1]])  # Intrinsic camera matrix
